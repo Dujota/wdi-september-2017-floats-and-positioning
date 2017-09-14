@@ -3,3 +3,6 @@
   Insert Galaxy Menu styles here to recreate the look of galaxy-restaurant-menu.pdf.
 
 */
+h1 {
+  background-color: orange;
+}

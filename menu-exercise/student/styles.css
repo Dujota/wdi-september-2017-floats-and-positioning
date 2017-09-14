@@ -3,6 +3,45 @@
   Insert Galaxy Menu styles here to recreate the look of galaxy-restaurant-menu.pdf.
 
 */
+
+*{
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+}
+h1, h2, h3{
+    text-align: center;
+}
+
+h3 {
+  border: solid 1px red;
+}
+
+body{
+  /*text-align: center;*/
+  /*width: 70%*/
+  background-color: limegreen;
+}
+
 h1 {
   background-color: orange;
+
 }
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section{
+  margin-top: 20px;
+  border: solid orange 1px;
+}
+
+/*img{
+  float: left;
+  width: 50%;
+}
+.features{
+  overflow: hidden;
+}*/

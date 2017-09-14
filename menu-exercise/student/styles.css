@@ -31,6 +31,7 @@ h1 {
 #container {
   width: 80%;
   margin: 0 auto;
+  position: relative;
 }
 
 section{
@@ -58,12 +59,38 @@ section{
   width: calc(33.33% - 20px);
 }
 
-.desets.cat-in-blanket,
-.desets.cake,
-.desets.cookies,
-.deserts.cupcake{
+.dessert{
   float: left;
+  width: 47%;
+  margin: 10px;
+  position: relative;
+
 }
+
+.dessert h4{
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  top: 8px;
+  right: 8px;
+}
+
+
+/*
+.desserts.cake{
+  float: left;
+  margin: 10px;
+  /*width: calc(50% - 20px);*/
+/*}*/
+
+/*.desserts.cats-in-blanket{*/
+  /*float: right;*/
+  /*margin: 10px;*/
+  /*width: calc(50% - 20px;*/
+/*}*/
+
+
 
 
 

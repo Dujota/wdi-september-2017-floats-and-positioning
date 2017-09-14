@@ -13,9 +13,9 @@ h1, h2, h3{
     text-align: center;
 }
 
-h3 {
+/*h3 {
   border: solid 1px red;
-}
+}*/
 
 body{
   /*text-align: center;*/
@@ -76,6 +76,44 @@ section{
   right: 8px;
 }
 
+section.desserts{
+  position: relative;
+}
+
+.desserts h2{
+  font-size: 20px;
+  border: dashed 2px brown;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  padding: 10px;
+  top: 44%;
+  left: 41%;
+  border-radius: 10px;
+}
+
+.cake, .cats-in-blanket{
+  margin-bottom: 25px;
+
+}
+
+footer{
+  position: absolute;
+  right: -10px;
+  bottom: -10px;
+}
+
+footer h3{
+  /*position: absolute;*/
+  width: 100px;
+  z-index: 2;
+  color: white;
+  background: green;
+  font-size: 16px;
+  /*bottom: 5px;*/
+  padding: 20px;
+}
 
 /*
 .desserts.cake{

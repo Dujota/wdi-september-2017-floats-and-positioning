@@ -20,7 +20,7 @@ h3 {
 body{
   /*text-align: center;*/
   /*width: 70%*/
-  background-color: limegreen;
+  background-color: #f0fff0;
 }
 
 h1 {
@@ -36,7 +36,36 @@ h1 {
 section{
   margin-top: 20px;
   border: solid orange 1px;
+  overflow: hidden;
 }
+
+.feature.avocado-burger,
+.feature.sushi-donuts{
+  float: left;
+  /*margin: 1%;
+  width: 48%;*/
+  margin: 10px;
+  width: calc(50% - 20px);
+}
+
+.combo-item.beer,
+.combo-item.fries,
+.combo-item.burger{
+  float: left;
+  /*margin: 1%;
+  width: 48%;*/
+  margin: 10px;
+  width: calc(33.33% - 20px);
+}
+
+.desets.cat-in-blanket,
+.desets.cake,
+.desets.cookies,
+.deserts.cupcake{
+  float: left;
+}
+
+
 
 /*img{
   float: left;
